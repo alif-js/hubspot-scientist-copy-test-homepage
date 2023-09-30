@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-right ul li {
+    margin-right: 2rem;
+    color: gray;
+}
+
+.background-color {
+    background-color: #ff5d5d;
+}
+
+.dark-background {
+    background-color: #425b76;
+}
+
+.dark-background-meeting {
+    background-color: #2d3e50;
+}
+
+.primary-color {
+    color: #ff5d5d;
+}
+
+.background-color-gray {
+    background-color: #f5f8fa;
+}
+
+.gradient-background {
+    background-image: linear-gradient(white, #ff5d5d);
+}
