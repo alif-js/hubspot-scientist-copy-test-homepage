@@ -8,6 +8,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .nav-right ul li {
     margin-right: 2rem;
     color: gray;
@@ -40,6 +41,17 @@ body {
 .gradient-background {
     background-image: linear-gradient(white, #ff5d5d);
 }
+
+
+body {
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+
+
 
 footer {
     background-color: #425b76;
