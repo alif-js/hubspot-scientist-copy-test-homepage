@@ -60,14 +60,14 @@ document.getElementById('btn-client-4').addEventListener('click', function () {
 
 // view all
 document.getElementById('view-all').addEventListener('click', function () {
-    let hidden = document.getElementById('hidden1');
-    hidden.classList.remove('hidden');
-})
-document.getElementById('view-all').addEventListener('click', function () {
-    let hidden = document.getElementById('hidden2');
-    hidden.classList.remove('hidden');
-})
-document.getElementById('view-all').addEventListener('click', function () {
-    let hidden = document.getElementById('hidden3');
-    hidden.classList.remove('hidden');
+    let hidden1 = document.getElementById('hidden1');
+    hidden1.classList.remove('hidden');
+
+    let hidden2 = document.getElementById('hidden2');
+    hidden2.classList.remove('hidden');
+
+    let hidden3 = document.getElementById('hidden3');
+    hidden3.classList.remove('hidden');
+
+    document.getElementById('view-all').classList.add('hidden');
 })
